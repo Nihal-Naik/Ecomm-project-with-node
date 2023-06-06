@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/canon_nikon_sony_product_page.css">
+    <link rel="stylesheet" href="/css/cart.css">
+    <link rel="stylesheet" href="/css/index.css">
+    <title>FlipCamera</title>
+</head>
+<body>
+    {{>header}}
+
+    <div class="main_container">
+        <div class="image_and_prod_container">
+            <img src="/Images/Sony ILCE 7M2K.jpg" alt="">
+            <div id="button_of_prod">
+                <button id="Add_to_cart" onclick="add_to_cart(5)"><span>ADD TO CART</span></button>
+                <button id="Buy_now" value="5" name="Buy_now"><span>BUY NOW</span></button>
+            </div>
+        </div>
+        <div class="product_desc_container">
+            <div class="product_name_rating_price">
+                <p>SONY Alpha Full Frame ILCE-7M2K/BQ IN5 Mirrorless Camera Body with 28 - 70 mm Lens  (Black)</p>
+                <img src="/logos/4 star rating.jpg" alt="">
+                <p id="price">&#8377;81,990</p>
+            </div>
+            <div class="bank_offers">
+                <ol>
+                    <li><img src="/logos/price-tag.png" alt=""><span><b>Bank Offer</b> Flat ₹1250 Discount on HDFC Bank Credit Card EMI Transactions on orders of ₹15,000 and above</span></li>
+                    <li><img src="/logos/price-tag.png" alt=""><span><b>Bank Offer</b> Flat ₹4000 Discount on HDFC Bank Credit Card EMI Transactions on orders of ₹50,000 and above</span></li>
+                    <li><img src="/logos/price-tag.png" alt=""><span><b>Bank Offer</b> 10% off on Kotak Credit Card EMI Transactions, up to ₹1,500, on orders of ₹5,000 and above</span></li>
+                    <li><img src="/logos/price-tag.png" alt=""><span><b>Special Price</b> Get extra 3% off (price inclusive of cashback/coupon)</span></li>
+                </ol>
+            </div>
+            <div class="description">
+                <div class="left_part">
+                    <p>Warranty</p><br><br>
+                    <p>Description</p><br><br><br><br><rbr><br><br>
+                    <p>Highlights</p>
+                </div>
+                <div class="right_part">
+                    <p>2 Year Warranty (1 year standard warranty + 1 year additional warranty from the date of purchase made by the customer.)</p><br>
+                    <p>
+                        Click breathtaking photos and blur-free videos with this Sony α7 II DSLR camera - it provides you immense freedom to reinvent your photography skills. This high-quality camera features a 5-axis Image Stabilisation, a 35 mm Full-frame 24.3 MP Exmor CMOS Sensor, and a Sony BIONZ X Image Processing Engine to allow you to capture detailed, crisp, and blur-free images and movies.</p><br><br>
+                    <ol style="list-style-type: square;">
+                        <li>4K/HD format, High-performance Fast Hybrid AF</li>
+                        <li>Effective Pixels: 24.3 MP</li>
+                        <li>Sensor Type: CMOS</li>
+                        <li>Wifi available</li>
+                        <li>Full HD</li>
+                    </ol>
+                </div>
+            </div>
+            <div class="reviews">
+                <p style="font-size: 2vw; margin-left: 1vw;">Reviews & Ratings</p>
+                <span>4.5</span>
+                <span id="rate">&#9733;</span>
+                <p class="total_ratings">1,514 Ratings & 1,072 Reviews</p>
+                <div class="ratings_lists">
+                    <div class="ratings_onebyone">
+                        <span>4.5&#9733;</span><label for="">Fantastic</label>
+                        <p>I am reviewing this product after two years of usage .
+                            Camara is awesome for personal use, if you are beginner and looking for Camara only to use personal use and for small use at professional level then it is more than perfect.
+                            I love this product and thanks Canon to make my valuable memories ali</p>
+                        <div class="imgcatalog">
+                            <img src="/Images/pexels-nashwan-guherzi-696941.jpg" alt="">
+                        </div>
+                    </div>
+                    <div class="ratings_onebyone">
+                        <span>5&#9733;</span><label for="">Wonderfull</label>
+                        <p>Excellent product packaging that comes with fantastic lens and the capture mood with its auto focus is just awesome........ I would recommend that this camera takes you to the another colourful vista ......Best product to buy in affordable price.</p>
+                        <div class="imgcatalog">
+                            <img src="/Images/pexels-quang-nguyen-vinh-2649403.jpg" alt="">
+                            <img src="/Images/pexels-nashwan-guherzi-696941.jpg" alt="">
+                            <img src="/Images/pexels-eberhard-grossgasteiger-456710.jpg" alt="">
+                        </div>
+                    </div>
+                    <div class="ratings_onebyone">
+                        <span>4&#9733;</span><label for="">Wonderfull</label>
+                        <p>Best Camera For the Beginners... Totally Loved it... Better experience.. Happy with the Service... Get the Product on time... Thanks..🙏☺️</p>
+                        <div class="imgcatalog">
+                            <img src="/Images/pexels-nashwan-guherzi-696941.jpg" alt="">
+                            <img src="/Images/pexels-eberhard-grossgasteiger-456710.jpg" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    {{>footer}}
+    <div class="cart_item">
+
+    </div>
+    <script src="https://checkout.razorpay.com/v1/checkout.js"></script>
+    <script src="/js/script-cart.js"></script>
+    <script src="/js/script.js"></script>
+</body>
+</html>

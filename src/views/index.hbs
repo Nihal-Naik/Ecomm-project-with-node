@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/index.css">
+    <link rel="stylesheet" href="/css/cart.css">
+</head>
+<body>
+    {{>header}}
+    <div class="mid-section">
+        <div class="sliding-window">
+            <img src="/Images/img1.jpg" alt="" class="sliding-img" id="active">
+            <img src="/Images/img2.jpg" alt="" class="sliding-img">
+            <img src="/Images/img3.jpg" alt="" class="sliding-img">
+            <img src="/Images/img4.jpg" alt="" class="sliding-img">
+        </div>
+        <span class="next-arrow" id="next-arrow">&#10095;</span>
+        <span class="prev-arrow" id="prev-arrow">&#10094;</span>
+    </div>
+    <div class="product-layout">
+        <div class="all-brand-box">
+            <div class="logo-picname">
+                <img src="/logos/logo-canon.jpg" alt="" class="canon-logo">
+            </div>
+            <a href="/canon-3000d-page">
+                <div class="items-box-canon">
+                    <img src="/Images/canon-3000d-canon-layout.jpg" alt="">
+                    <p>Canon eos 3000d</p>
+                    <label for="">from &#8377;28,999</label>
+                </div>
+            </a>
+            <a href="/canon-1500d-page">
+                <div class="items-box-canon">
+                    <img src="/Images/canon-1500d-canon-layout.jpg" alt="">
+                    <p>Canon eos 1500d</p>
+                    <label for="">from &#8377;36,999</label>
+                </div>
+            </a>
+            <a href="/coming_soon">
+                <div class="items-box-canon">
+                    <img src="/Images/canon-1500d-canon-layout.jpg" alt="">
+                    <p>Canon eos 1500d</p>
+                    <label for="">from &#8377;36,999</label>
+                </div>
+            </a>
+            <a href="/coming_soon">
+                <div class="items-box-canon">
+                    <img src="/Images/canon-700d-canon-layout.jpg" alt="" id="canon-700d-canon-layout">
+                    <p>Canon eos 700d</p>
+                    <label for="">from &#8377;43,349</label>
+                </div>
+            </a>
+            <div class="view-more-box">
+                <a href="/canon"><button>VIEW MORE</button></a>
+            </div>
+            <div class="logo-picname">
+                <img src="/logos/logo-nikon.png" alt="" class="nikon-logo">
+            </div>
+            <a href="/nikon-d3000-page">
+                <div class="items-box-nikon" >
+                    <img src="/Images/nikon D3000.jpg" alt="" class="nikon_D3000_img">
+                    <p>Nikon D3000</p>
+                    <label for="">from &#8377;73,882</label>
+                </div>
+            </a>
+            <a href="/nikon-d3500-page">
+                <div class="items-box-nikon">
+                    <img src="/Images/nikon D3500.jpg" alt="">
+                    <p>Nikon D3500</p>
+                    <label for="">from &#8377;36,100</label>
+                </div>
+            </a>
+            <a href="/coming_soon">
+                <div class="items-box-nikon">
+                    <img src="/Images/nikon D5600.jpg" alt="">
+                    <p>Nikon D5600</p>
+                    <label for="">from &#8377;46,190</label>
+                </div>
+            </a>
+            <a href="/coming_soon">
+                <div class="items-box-nikon">
+                    <img src="/Images/nikon D7500.jpg" alt="">
+                    <p>Nikon D7500</p>
+                    <label for="">from &#8377;70,011</label>
+                </div>
+            </a>
+            <div class="view-more-box">
+                <a href="/nikon"><button>VIEW MORE</button></a>
+            </div>
+            <div class="logo-picname">
+                <img src="/logos/logo-sony.jpg" alt="" class="sony-logo">
+            </div>
+            <a href="/sony-ICLE-7M2K-page">
+                <div class="items-box-sony">
+                    <img src="/Images/Sony ILCE 7M2K.jpg" alt="">
+                    <p>Sony ICLE 7M2K</p>
+                    <label for="">from &#8377;80,999</label>
+                </div>
+            </a>
+            <a href="/Sony-Alpha-ILCE-7RM4A-page">
+                <div class="items-box-sony">
+                    <img src="/Images/Sony Alpha ILCE-7RM4A.jpg" alt="">
+                    <p>Sony Alpha ILCE-7RM4A</p>
+                    <label for="">from &#8377;274,990</label>
+                </div>
+            </a>
+            <a href="/coming_soon">
+                <div class="items-box-sony">
+                    <img src="/Images/Sony Alpha ILCE-5100L.jpg" alt="">
+                    <p>Sony Alpha ILCE-5100L</p>
+                    <label for="">from &#8377;33,990</label>
+                </div>
+            </a>
+            <a href="/coming_soon">
+                <div class="items-box-sony">
+                    <img src="/Images/Sony A58.jpg" alt="">
+                    <p>Sony A58</p>
+                    <label for="">from &#8377;99,151</label>
+                </div>
+            </a>
+            <div class="view-more-box">
+                <a href="/sony"><button>VIEW MORE</button></a>
+            </div>
+        </div>
+    </div>
+    
+
+    {{>footer}}
+
+
+    <div class="cart_item">
+
+    </div>
+    <script src="/js/script-cart.js"></script>
+    <script src="/js/script_sliding_animation.js"></script>
+    <script src="/js/script.js"></script>
+</body>
+</html>

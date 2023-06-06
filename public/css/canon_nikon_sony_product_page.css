@@ -1,0 +1,226 @@
+body{
+    margin: 0;
+    height: 100%;
+    overflow: hidden;
+}
+.main_container{
+    top: 4vw;
+    width: 100%;
+    display: flex;
+    height: fit-content;
+}
+.image_and_prod_container{
+    position: relative;
+    top: 0vw;
+    height: 42vw;
+    width: 40%;
+    /* border: 1px solid black; */
+}
+.image_and_prod_container img{
+    transform: translate(23%,30%);
+    height: 20vw;
+    width: 26vw;
+    /* background: transparent; */
+}
+#button_of_prod{
+    width: fit-content;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 1vw;
+    position: absolute;
+    bottom: 8vw;
+    left: 4vw;
+}
+#Add_to_cart{
+    width: 15vw;
+    padding: 1vw;
+    background: black;
+    color: white;
+    font-size: 1.8vw;
+    cursor: pointer;
+}
+#Add_to_cart:active{
+    background: white;
+    color: black;
+}
+#Buy_now{
+    width: 15vw;
+    padding: 1vw;
+    background: white;
+    /* border: 0.1vw solid black; */
+    font-size: 1.8vw;
+    cursor: pointer;
+}
+#Buy_now:active{
+    background-color: black;
+    color: white;
+}
+.product_desc_container{
+    height: 48vw;
+    width: 60%;
+    /* border: 1px solid black; */
+    overflow-y: auto;
+}
+.product_name_rating_price{
+    height: 18vw;
+    width: 100%;
+    /* border: 1px solid black; */
+    margin-top: 5vw;
+}
+.product_name_rating_price p{
+    font-size: 3vw;
+    margin-left: 1vw;
+}
+.product_name_rating_price img{
+    height: 2.5vw;
+    width: 10vw;
+    background: none;
+}
+#price{
+    font-size: 2vw;
+}
+.product_name_rating_price img,#price{
+    margin-top: 1vw;
+    margin-left: 1vw;
+}
+.bank_offers{
+    height: 11vw;
+    width: 100%;
+    /* border: 1px solid black; */
+    margin-top: 2vw;
+}
+.bank_offers img{
+    background: none;
+    height: 1.5vw;
+    margin-right: 0.5vw;
+}
+.bank_offers li{
+    display: flex;
+    align-items: center;
+    margin-top: 1vw;
+}
+.bank_offers span{
+    font-size: 1.2vw;
+}
+.description{
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    height: 25vw;
+    width: 100%;
+    /* border: 1px solid black; */
+    margin-top: 2vw;
+}
+.left_part{
+    font-size: 1.2vw;
+    margin-left: 1vw;
+    font-weight: bold;
+    color: gray;
+}
+.right_part{
+    font-size: 1.2vw;
+}
+.reviews{
+    height: 55vw;
+    width: 100%;
+    /* border: 1px solid black; */
+    margin-top: 5vw;
+}
+.reviews span{
+    font-size: 3vw;
+    margin-top: 5vw;
+    margin-left: 1vw;
+}
+#rate{
+    font-size: 3vw;
+}
+.total_ratings{
+    margin-left: 1vw;
+    color: gray;
+}
+.ratings_lists{
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+}
+.ratings_onebyone{
+    margin-top: 2vw;
+}
+.ratings_onebyone span{
+    background-color: black;
+    color: white;
+    font-size: 1.5vw;
+    padding: 0.2vw;
+    border-radius: 0.4vw;
+}
+.ratings_onebyone label{
+    font-size: 1.5vw;
+    margin-left: 1vw;
+}
+.ratings_onebyone p{
+    margin-top: 1vw;
+    margin-left: 1vw;
+    font-size: 1vw;
+}
+.imgcatalog{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    width: 48%;
+    margin-top: 1vw;
+    margin-left: 1vw;
+}
+.imgcatalog img{
+    height: 6vw;
+}
+@media screen and (max-width: 400px){
+    nav{
+        height: 20vw;
+    }
+    .main_container{
+        display: grid;
+        grid-template-rows: 1fr 1fr;
+    }
+    .image_and_prod_container{
+        align-items: center;
+        height: 80vw;
+        width: 100%;
+        margin-left: 0vw;
+    }
+    .image_and_prod_container img{
+        margin-left: 12vw;
+        height: 40%;
+        width: 50%;
+        transform: translate(15%,45%);
+    }
+    #button_of_prod{
+        display: flex;
+        margin-left: 12vw;
+        height: 15%;
+        width: 80%;
+    }
+    #Add_to_cart{
+        width: 40%;
+        font-size: 2.2vw;
+    }
+    #Buy_now{
+        width: 40%;
+        font-size: 2.2vw;
+    }
+    .product_desc_container{
+        height: 80vw;
+        width: 100%;
+        margin-top: 0vw;
+        position: absolute;
+        overflow-y: auto;
+        top: 80vw;
+    }
+    .imgcatalog{
+        width: 28%;
+    }
+    .total_ratings{
+        font-size: 1.2vw;
+    }
+}
+#NumberofProd{
+    position: absolute;
+    top: 38vw;
+    left: 7vw;
+}
